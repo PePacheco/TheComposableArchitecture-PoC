@@ -23,6 +23,7 @@
 		E0EBD7DA29BD3EE500B779A5 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBD7D929BD3EE500B779A5 /* ProductCell.swift */; };
 		E0EBD7DD29BE4AD400B779A5 /* ProductListDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBD7DC29BE4AD400B779A5 /* ProductListDomain.swift */; };
 		E0EBD7DF29BE763000B779A5 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBD7DE29BE763000B779A5 /* ProductListView.swift */; };
+		E0EBD7E229C0F42C00B779A5 /* AddToCardReducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBD7E129C0F42C00B779A5 /* AddToCardReducerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E0EBD7D929BD3EE500B779A5 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		E0EBD7DC29BE4AD400B779A5 /* ProductListDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListDomain.swift; sourceTree = "<group>"; };
 		E0EBD7DE29BE763000B779A5 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		E0EBD7E129C0F42C00B779A5 /* AddToCardReducerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCardReducerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		E0EBD79D29B9015A00B779A5 /* TCA-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E0EBD7E029C0F3E000B779A5 /* Tests */,
 				E0EBD7D329BBA3CA00B779A5 /* Flows */,
 				E0EBD79E29B9015A00B779A5 /* TCA_DemoApp.swift */,
 				E0EBD7A029B9015A00B779A5 /* ContentView.swift */,
@@ -183,6 +186,14 @@
 				E0EBD7DE29BE763000B779A5 /* ProductListView.swift */,
 			);
 			path = ProductList;
+			sourceTree = "<group>";
+		};
+		E0EBD7E029C0F3E000B779A5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0EBD7E129C0F42C00B779A5 /* AddToCardReducerTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0EBD7B029B9015B00B779A5 /* TCA_DemoTests.swift in Sources */,
+				E0EBD7E229C0F42C00B779A5 /* AddToCardReducerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
